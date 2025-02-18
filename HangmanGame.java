@@ -12,7 +12,7 @@ public class HangmanGame {
             String[] words = {
                     "temple", "mosiah", "nephi", "lehi", "mormon", "ammon",
                     "alma", "ether", "mosiah", "laman", "coriantumr", "moroni",
-                    "benjamin", "abish", "heli", "sariah", "captain moroni", "teancum",
+                    "benjamin", "abish", "heli", "sariah", "teancum",
                     "helaman", "shiz", "sam", "zarahemla", "gideon", "laban", "zenniff",
                     "pahoran", "nephi", "jacob", "ammonihah", "akish", "shimnon", "mulek"
             };
