@@ -3,7 +3,7 @@ public class GameManager {
         HangmanGame hangmanGame = new HangmanGame();
         NumberGame numberGame = new NumberGame();
 
-        hangmanGame.startGame();
+        // hangmanGame.startGame();
         numberGame.startGame();
     }
 }
