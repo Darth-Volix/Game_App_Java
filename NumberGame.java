@@ -10,7 +10,7 @@ public class NumberGame {
         int attempts = 10; // Limit the number of attempts
         int guess;
 
-        System.out.println("Welcome to Guess the Number!");
+        System.out.println("\nWelcome to Guess the Number!\n");
         System.out.println("I have selected a number between 1 and 100. Try to guess it!");
 
         for (int i = 1; i <= attempts; i++) {
