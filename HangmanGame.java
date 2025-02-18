@@ -24,6 +24,9 @@ public class HangmanGame {
 
             System.out.println("\nWelcome to Hangman!\n");
 
+            // Give the user instructions
+            System.out.println("I have selected a word from the Book of Mormon.\nTry to guess it within 6 tries!\n");
+
             // Game loop
             while (remainingAttempts > 0) {
                 System.out.print("Current word: ");
