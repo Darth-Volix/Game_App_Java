@@ -11,7 +11,13 @@ public class HangmanGame {
         String playAgain = "yes";
 
         while (playAgain.equalsIgnoreCase("yes")) {
-            String[] words = {"temple", "mosiah", "nephi", "lehi", "mormon", "ammon"};
+            String[] words = {
+                "temple", "mosiah", "nephi", "lehi", "mormon", "ammon",
+                "alma", "ether", "mosiah", "laman", "coriantumr", "moroni",
+                "benjamin", "abish", "heli", "sariah", "captain moroni", "teancum",
+                "helaman", "shiz", "sam", "zarahemla", "gideon", "laban", "zenniff",
+                "pahoran", "nephi", "jacob", "ammonihah", "akish", "shimnon", "mulek"
+            };
             String word = words[random.nextInt(words.length)];
             Set<Character> correctGuesses = new HashSet<>();
             Set<Character> incorrectGuesses = new HashSet<>();
