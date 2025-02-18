@@ -32,9 +32,9 @@ public class Program {
             System.out.println("\nHope you had fun playing Guess the Number!");
         } else if (gameChoice == 2) {
             numberGame.startGame(scanner);
-            System.out.println("Hope you had fun playing Guess the Number!\nNext up is Hangman!");
+            System.out.println("\nHope you had fun playing Guess the Number!\nNext up is Hangman!");
             hangmanGame.startGame(scanner);
-            System.out.println("Hope you had fun playing Hangman!");
+            System.out.println("\nHope you had fun playing Hangman!");
         }
 
         scanner.close();
