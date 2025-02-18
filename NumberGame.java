@@ -1,11 +1,9 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class NumberGame {
-    public void startGame() {
-        Scanner scanner = new Scanner(System.in);
+    public void startGame(Scanner scanner) {
         Random random = new Random();
-
         String playAgain = "yes";
 
         while (playAgain.equalsIgnoreCase("yes")) {
@@ -46,6 +44,5 @@ public class NumberGame {
                 System.out.println("\nThank you for playing Guess The Number! Goodbye!");
             }
         }
-        scanner.close();
     }
 }

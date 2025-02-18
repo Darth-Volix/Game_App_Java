@@ -4,19 +4,17 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class HangmanGame {
-    public void startGame() {
-        Scanner scanner = new Scanner(System.in);
+    public void startGame(Scanner scanner) {
         Random random = new Random();
-
         String playAgain = "yes";
 
         while (playAgain.equalsIgnoreCase("yes")) {
             String[] words = {
-                "temple", "mosiah", "nephi", "lehi", "mormon", "ammon",
-                "alma", "ether", "mosiah", "laman", "coriantumr", "moroni",
-                "benjamin", "abish", "heli", "sariah", "captain moroni", "teancum",
-                "helaman", "shiz", "sam", "zarahemla", "gideon", "laban", "zenniff",
-                "pahoran", "nephi", "jacob", "ammonihah", "akish", "shimnon", "mulek"
+                    "temple", "mosiah", "nephi", "lehi", "mormon", "ammon",
+                    "alma", "ether", "mosiah", "laman", "coriantumr", "moroni",
+                    "benjamin", "abish", "heli", "sariah", "captain moroni", "teancum",
+                    "helaman", "shiz", "sam", "zarahemla", "gideon", "laban", "zenniff",
+                    "pahoran", "nephi", "jacob", "ammonihah", "akish", "shimnon", "mulek"
             };
             String word = words[random.nextInt(words.length)];
             Set<Character> correctGuesses = new HashSet<>();
@@ -79,8 +77,5 @@ public class HangmanGame {
             System.out.print("Would you like to play again? (yes/no): ");
             playAgain = scanner.nextLine();
         }
-
-        System.out.println("Thank you for playing Hangman! Goodbye!");
-        scanner.close();
     }
 }
