@@ -24,9 +24,7 @@ public class HangmanGame {
             int maxAttempts = 6; // Number of incorrect guesses before losing
             int remainingAttempts = maxAttempts;
 
-            System.out.println();
-            System.out.println("Welcome to Hangman!");
-            System.out.println();
+            System.out.println("\nWelcome to Hangman!\n");
 
             // Game loop
             while (remainingAttempts > 0) {
@@ -38,10 +36,9 @@ public class HangmanGame {
                         System.out.print("_ ");
                     }
                 }
-                System.out.println();
-                System.out.println("Incorrect guesses: " + incorrectGuesses);
-                System.out.println("Remaining attempts: " + remainingAttempts);
-                System.out.println();
+
+                System.out.println("\nIncorrect guesses: " + incorrectGuesses);
+                System.out.println("Remaining attempts: " + remainingAttempts + "\n");
 
                 System.out.print("Guess a letter: ");
                 char guess = scanner.nextLine().toLowerCase().charAt(0);
@@ -67,8 +64,7 @@ public class HangmanGame {
                 }
 
                 if (wordGuessed) {
-                    System.out.println();
-                    System.out.println("Congratulations! You guessed the word: " + word);
+                    System.out.println("\nCongratulations! You guessed the word: " + word);
                     break;
                 }
 
