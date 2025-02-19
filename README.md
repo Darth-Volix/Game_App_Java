@@ -6,7 +6,7 @@ This project is a basic implementation of a game program, which has the user pla
 
 I decided to do this project and learn Java because the only backend languages I knew prior to this were Python, C#, and some SQL. Java remains one of the most popular languages used in the industry today, and to be marketable I needed to challenge myself to learn this language and break out of the comfort zone I have with C#. Learning Java now enables me to pursue learning Kotlin and developing apps for the Android mobile platform, with those projects also being available for employers to review on my GitHub once they are completed. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/V6oLP624EQ0)
 
 # Development Environment
 
